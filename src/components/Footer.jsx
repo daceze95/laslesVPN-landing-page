@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='flex flex-col gap-2 mb-4 md:mb-0'>
-          <p className='text-2xl font-bold'>{footerMenu[0].title}</p>
+          <p className='text-lg font-bold'>{footerMenu[0].title}</p>
           {footerMenu[0].menu.map((item) => (
             <p className='text-laserMediumAsh/70' key={item}>
               {item}
@@ -57,7 +57,7 @@ const Footer = () => {
           ))}
         </div>
         <div className='flex flex-col gap-2 mb-4 md:mb-0'>
-          <p className='text-2xl font-bold'>{footerMenu[1].title}</p>
+          <p className='text-lg font-bold'>{footerMenu[1].title}</p>
           {footerMenu[1].menu.map((item) => (
             <p className='text-laserMediumAsh/70' key={item}>
               {item}
@@ -65,7 +65,7 @@ const Footer = () => {
           ))}
         </div>
         <div className='flex flex-col gap-2 mb-4 md:mb-0'>
-          <p className='text-2xl font-bold'>{footerMenu[2].title}</p>
+          <p className='text-lg font-bold'>{footerMenu[2].title}</p>
           {footerMenu[2].menu.map((item) => (
             <p className='text-laserMediumAsh/70' key={item}>
               {item}
